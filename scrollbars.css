@@ -107,38 +107,38 @@ scrollbar * {
 
 scrollbar[orient="vertical"] {
 	-moz-margin-start: 0px !important;
-	max-width: 8px !important;
-	min-width: 8px !important;
+	max-width: 7px !important;
+	min-width: 7px !important;
 
 	background: none !important;
 	cursor: default}
 
 scrollbar[orient="horizontal"] {
 	margin-top: 0px !important;
-	max-height: 8px !important;
-	min-height: 8px !important;
+	max-height: 7px !important;
+	min-height: 7px !important;
   
 	background: none !important;
 	cursor: default}
 
 scrollbar thumb[orient="vertical"] {
 	min-height: 32px !important;
-	width: 8px !important;
-	min-width: 8px !important;
-	max-width: 8px !important;
+	width: 7px !important;
+	min-width: 7px !important;
+	max-width: 7px !important;
 	background-color: #948a75 !important;
 }
 
 scrollbar thumb[orient="horizontal"] {
 	min-width: 32px !important;
-	height: 8px !important;
-	min-height: 8px !important;
-	max-height: 8px !important;
+	height: 7px !important;
+	min-height: 7px !important;
+	max-height: 7px !important;
 	background-color: #948a75 !important;
 }
 
 scrollbar thumb {
-	border-radius: 8px !important;
+	border-radius: 7px !important;
 	transition: all 0.4s !important;
 }
 
@@ -149,8 +149,6 @@ scrollbar:hover thumb[orient="horizontal"] {
 scrollbar thumb[orient="vertical"]:active,
 scrollbar thumb[orient="horizontal"]:active {
 	background-color: #83a598 !important;
-	border-radius: 3px !important;
-	transform: scale(1, 1) translate(0, 0);
 }
 
 scrollcorner {
@@ -161,7 +159,7 @@ scrollcorner {
 scrollbar scrollbarbutton {
 	min-height: 0px !important;
 	min-width: 0px !important;
-	max-height: 16px !important;
-	max-width: 16px !important;
+	max-height: 7px !important;
+	max-width: 7px !important;
 	height: 0px !important;
 	width: 0px !important}
